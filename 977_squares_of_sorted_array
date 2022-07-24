@@ -22,7 +22,11 @@
 
 
 class Solution:
-    def sortedSquares(self, nums: List[int]) -> List[int]:
+    def sortedSquares(self, nums):
+        """
+        :type: List[int]
+        :rtype: List[int]
+        """
         squared_nums = []
 
         squared_nums = [x * x for x in nums]
