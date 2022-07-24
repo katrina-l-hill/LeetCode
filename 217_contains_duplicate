@@ -24,7 +24,11 @@
 
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
         num_set = set()  # O(1)
         for i in nums:  # O(n)
             if i in num_set:
