@@ -23,9 +23,10 @@
 
 
 class Solution:
-    def duplicateZeros(self, arr: List[int]) -> None:
+    def duplicateZeros(self, arr):
         """
-        Do not return anything, modify arr in-place instead.
+        :type arr: List[int]
+        :rtype: None. Do not return anything, modify arr in-place instead.
         """
         # Problem Domain: fixed length array, duplicate each occcurrence of zero, shift the remaining elements to the right
 
