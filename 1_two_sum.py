@@ -34,10 +34,10 @@
 
 class Solution:
     def twoSum(self, nums):
-      """
-      :type nums: List[int]
-      :rtype: int
-      """
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         seen = {}
         for i, value in enumerate(nums):
             remaining = target - nums[i]
