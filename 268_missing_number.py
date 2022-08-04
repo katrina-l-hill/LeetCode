@@ -28,3 +28,15 @@
 # All the numbers of nums are unique.
 
 # Follow up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
+
+
+class Solution(object):
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        total = len(nums) * (len(nums) + 1) / 2
+        for num in nums:
+            total -= num
+        return total
