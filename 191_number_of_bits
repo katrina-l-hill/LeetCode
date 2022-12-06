@@ -33,7 +33,7 @@
 
 
 class Solution:
-    def hammingWeight(self, n: int) -> int:
+    def hammingWeight(self, n):
         """
         :type n: int
         :rtype: int
